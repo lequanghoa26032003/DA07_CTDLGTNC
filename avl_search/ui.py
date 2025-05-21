@@ -19,7 +19,6 @@ class MainWindow(QMainWindow):
         # Thêm dòng này để đọc CSS từ file
         self.load_stylesheet("styles/main.css")
         
-        # Thêm dòng này để thiết lập icon cho ứng dụng
         self.setWindowIcon(QIcon("icons/library_icon.png"))
         
         # Đặt tiêu đề ứng dụng đẹp hơn
