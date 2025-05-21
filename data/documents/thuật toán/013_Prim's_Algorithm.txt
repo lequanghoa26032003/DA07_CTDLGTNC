@@ -1,0 +1,21 @@
+Thuật toán: Prim's Algorithm
+
+Mô tả:
+Đây là mô tả tổng quan cho thuật toán Prim's Algorithm. Thuật toán này được sử dụng trong nhiều bài toán phổ biến trong tin học và lập trình thi đấu.
+
+Độ phức tạp:
+- Thời gian: O(n log n) hoặc tùy vào thuật toán
+- Không gian: O(1) hoặc O(n) tùy theo cách cài đặt
+
+Ứng dụng:
+- Giải bài toán tối ưu
+- Cấu trúc dữ liệu nâng cao
+- Tìm kiếm, sắp xếp, cây, đồ thị,...
+
+Code minh họa (Python):
+
+```python
+# Đây là đoạn code mô phỏng cho Prim's Algorithm
+def prim's_algorithm(data):
+    pass  # TODO: Implement thuật toán Prim's Algorithm
+```

@@ -1,0 +1,99 @@
+/* STYLE CHO TOÀN BỘ ỨNG DỤNG */
+QMainWindow, QTabWidget, QWidget {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 11pt;
+    background-color: #f5f5f7;
+}
+
+/* STYLE CHO TAB */
+QTabWidget::pane {
+    border: 1px solid #dcdcdc;
+    background-color: white;
+    border-radius: 5px;
+}
+
+QTabBar::tab {
+    background-color: #e1e1e1;
+    padding: 8px 16px;
+    margin-right: 2px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+QTabBar::tab:selected {
+    background-color: white;
+    border-bottom: 2px solid #3498db;
+}
+
+/* STYLE CHO NÚT */
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+/* STYLE CHO SEARCH BOX */
+#search-box {
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#search-button {
+    background-color: #2ecc71;
+}
+
+/* STYLE CHO ADD BUTTON */
+#add-button {
+    background-color: #27ae60;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* STYLE CHO BẢNG KẾT QUẢ */
+#results-table {
+    alternate-background-color: #f0f0f0;
+}
+
+#results-table::item:selected {
+    background-color: #d0e9f8;
+    color: black;
+}
+
+QTableWidget::item:hover {
+    background-color: #eaf7fb;
+}
+
+/* STYLE CHO CÁC Ô NHẬP LIỆU */
+QLineEdit, QComboBox {
+    padding: 6px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border: 1px solid #3498db;
+}
+
+/* STYLE CHO GROUP BOX */
+QGroupBox {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 5px;
+    color: #2980b9;
+}

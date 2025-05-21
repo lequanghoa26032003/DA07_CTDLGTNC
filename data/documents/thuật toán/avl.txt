@@ -1,0 +1,4 @@
+Cây AVL là một loại cây tìm kiếm nhị phân cân bằng được sử dụng rộng rãi trong khoa học máy tính.
+Nó giúp tối ưu hóa tốc độ tìm kiếm, chèn và xóa phần tử so với cây tìm kiếm nhị phân thông thường.
+Mỗi nút trong cây AVL duy trì một hệ số cân bằng để đảm bảo chiều cao của hai cây con không chênh lệch nhau quá một đơn vị.
+Điều này giúp cải thiện hiệu suất của các thao tác tìm kiếm.
